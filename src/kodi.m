@@ -2,7 +2,7 @@ clear all; %Fshi të gjitha variablat nga memory.
 pkg load image % Ngarko paketën "image" në Octave.
 
 %Ngarko imazhin e quajtur "lena.tiff" dhe e konverto në formatin double.
-img = im2double(imread("/Users/erlisalokaj/Desktop/Projekti 2 Image processing/lena.tiff"));
+img = im2double(imread("src/lena.tiff"));
 img_size= size(img);
 
 % Cakto dimensionet e secilit bllok si 2x2.
